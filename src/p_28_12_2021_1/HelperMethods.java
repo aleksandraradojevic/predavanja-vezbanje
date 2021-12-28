@@ -1,6 +1,6 @@
 package p_28_12_2021_1;
 
-public class Zadatak1 {
+public class HelperMethods {
 
 	public static void main(String[] args) {
 
