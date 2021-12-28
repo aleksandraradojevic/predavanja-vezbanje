@@ -7,6 +7,7 @@ public class HelperMethods {
 		int[] array = {1,2,3,4,5};
 		
 		printArray(array);
+		printArrayReverse(array);
 
 	}
 	
@@ -17,6 +18,15 @@ public class HelperMethods {
 			System.out.println(array[i]);
 			
 		}
+	}
+		
+		public static void printArrayReverse(int[] array) {
+			
+			for (int i = array.length - 1; i >= 0; i--) {
+				
+				System.out.println(array[i]);
+				
+			}
 		
 	}
 
